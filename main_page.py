@@ -11,7 +11,8 @@ logging.getLogger('deepface').setLevel(logging.ERROR)
 
 
 # 定义数据库路径
-DB_PATH = "/home/liuyichen/deepface/tests/dataset"
+# DB_PATH = "/home/liuyichen/deepface/tests/dataset"
+DB_PATH = "./tests/dataset"
 
 def add_user(image_path):
     if os.path.exists(image_path):

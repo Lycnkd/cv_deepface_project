@@ -93,7 +93,8 @@ def clustering(db_path):
         
 
 def video_detect(video_path):
-    output_folder = "/home/liuyichen/deepface/temp_frame"
+    # output_folder = "/home/liuyichen/deepface/temp_frame"
+    output_folder = "./temp_frame"
 
     cap = cv2.VideoCapture(video_path)
         
@@ -128,7 +129,8 @@ def video_detect(video_path):
             try:
                 dfs = DeepFace.find(
                     img_path = frame_filename,
-                    db_path = "/home/liuyichen/deepface/tests/dataset",
+                    # db_path = "/home/liuyichen/deepface/tests/dataset",
+                    db_path = "./tests/dataset",
                     model_name="VGG-Face"
                 )
                 
