@@ -5,7 +5,7 @@
 
 Facial Recognition with Database (FRD)  is a lightweight face recognition and facial attribute analysis ([age](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/), gender, emotion and race) application for python. It is a hybrid face recognition framework using models `VGG-Face`
 
-[`Experiments`](https://github.com/serengil/deepface/tree/master/benchmarks) show that human beings have 97.53% accuracy on facial recognition tasks whereas those models already reached and passed that accuracy level.
+[`Experiments`]([https://github.com/Lycnkd/cv_deepface_project/tree/master/benchmarks]) show that human beings have 97.53% accuracy on facial recognition tasks whereas those models already reached and passed that accuracy level.
 
 ## Installation 
 
