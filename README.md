@@ -21,6 +21,8 @@ Then you will be able to import the library and use its functionalities.
 
 ```python
 $ pip install deepface
+cd deepface
+python main_page.py
 
 from deepface import DeepFace
 ```
